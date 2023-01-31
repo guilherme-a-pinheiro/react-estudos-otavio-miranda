@@ -7,7 +7,7 @@ export const TextInput = ({ handleChange, searchValue }) => {
     type="search" 
     onChange={handleChange} 
     value={searchValue}
-    placeholder="Type your search"
+    placeholder="aaaaaaaaaaaa"
     />
   );
 }
