@@ -15,3 +15,10 @@ export const PostCard = ({ title, body, id, cover }) => {
     </div>
   );
 };
+
+PostCard.propTypes = {
+  title: P.string.isRequired,
+  cover: P.string.isRequired,
+  body: P.string.isRequired,
+  id: P.number.isRequired
+}
